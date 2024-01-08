@@ -25,6 +25,6 @@ chaotic-aur/github-desktop chaotic-aur/prismlauncher-qt5 chaotic-aur/brave-bin c
 cd $HOME
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo "neofetch \n \n" >> .zshrc
-echo "alias vim=nvim"
-echo "alias ls='lsd -al'"
+echo "alias vim=nvim" >> .zshrc
+echo "alias ls='lsd -al'" >> .zshrc
 sudo chsh -s /bin/zsh $USER
