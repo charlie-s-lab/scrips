@@ -27,4 +27,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 echo "neofetch \n \n" >> .zshrc
 echo "alias vim=nvim"
 echo "alias ls='lsd -al'"
-sudo chsh -s /bin/zsh
+sudo chsh -s /bin/zsh $USER
