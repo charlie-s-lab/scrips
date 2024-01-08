@@ -14,7 +14,7 @@ sudo pacman -Syyu --noconfirm
 sudo pacman -S curl wget git --noconfirm --needed
 
 #install some wanted apps
-sudo pacman -S lsd neovim-qt flatpak ranger zsh ranger bottom neofetch zsh-autosuggestion zsh-completions zsh-syntax-highlighting github-cli kdenlive\
+sudo pacman -S lsd neovim-qt flatpak ranger zsh ranger bottom neofetch zsh-completions zsh-syntax-highlighting github-cli kdenlive\
 chaotic-aur/github-desktop chaotic-aur/prismlauncher-qt5 chaotic-aur/brave-bin chaotic-aur/appimagelauncher chaotic-aur/spotify-adblock-git --noconfirm
 #sudo flatpak install -y ##app
 
